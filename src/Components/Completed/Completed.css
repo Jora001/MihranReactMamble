@@ -1,0 +1,18 @@
+.hideCompleted {
+    color: #000000;
+    font-family: 'Poppins', sans-serif;    
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 6px;
+}
+
+input {
+    accent-color: #008594;
+    border-color: #000000;
+}
+
+.completed {
+ display: flex;
+ justify-content: end;
+ margin-bottom: 16px; 
+}

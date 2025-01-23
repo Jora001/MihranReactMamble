@@ -1,0 +1,38 @@
+.App {
+    padding: 0 80px;
+    padding-top: 150px;
+}
+
+.App > div {
+    font-family: 'Poppins', sans-serif; 
+}
+
+.emptyListText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.firstLine {
+    color: #ACACAC;
+    font-size: 24px;
+}
+
+.secondLine {
+    color: #666666;
+    font-size: 36px;
+}
+
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
